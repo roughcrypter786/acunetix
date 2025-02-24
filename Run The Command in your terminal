@@ -1,0 +1,32 @@
+GO TO THE ACUNETIX FOLDER
+
+Run the following commands sequentially in you linux terminal
+  bash
+    chmod +x *
+
+  bash
+    sudo bash ./acunetix_13.0.200217097_x64_.sh
+
+  bash
+    sudo cp wvsc /home/acunetix/.acunetix/v_200217097/scanner/
+
+  bash
+    sudo cp license_info.json /home/acunetix/.acunetix/data/license/
+
+  bash
+    service acunetix status 
+
+  bash
+    service acunetix start
+
+Acunetix has installed and activated successfully.
+
+Now go to your browser and visit:
+    https://127.0.0.1:3443/
+
+CONGRATULATIONS!!!
+YOU HAVE SUCCCESSFULLY ACTIVATED ACUNETIX
+
+Learn more about us:
+https://haxygen.net
+https://academy.haxygen.net
